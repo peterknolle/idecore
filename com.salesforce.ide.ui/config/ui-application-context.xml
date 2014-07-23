@@ -31,6 +31,12 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 		lazy-init="true">
 		<property name="url" value="http://www.salesforce.com/developer/" />
 	</bean>
+	
+	<bean id="openBrowserToWorkbenchAction"
+		class="com.salesforce.ide.ui.actions.OpenBrowserToExternalSiteAction"
+		lazy-init="true">
+		<property name="url" value="http://workbench.developerforce.com" />
+	</bean>
 
     <!--   C O N T R I B U T I O N S -->
 	<bean id="componentContributionFactory"

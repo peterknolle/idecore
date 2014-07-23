@@ -589,6 +589,13 @@
                 tooltip="%action.label.OpenSalesforce"
                 icon="icons/icon_scube.gif"
                 toolbarPath="force"/>
+            <action
+                id="com.salesforce.ide.ui.action.openToWorkbenchAction"
+                class="com.salesforce.ide.core.internal.factories.ExtensionFactory:openBrowserToWorkbenchAction"
+                label="%action.label.OpenWorkbench"
+                tooltip="%action.label.OpenWorkbench"
+                icon="icons/icon_workbench.png"
+                toolbarPath="force"/>
         </actionSet>
         <actionSet
             id="com.salesforce.ide.ui.actionset.help"
@@ -602,6 +609,7 @@
                  tooltip="%action.label.OpenLogView"
                  style="push"/>
         </actionSet>
+        
     </extension>
 
 
